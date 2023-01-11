@@ -1,0 +1,29 @@
+{
+  "name": "musala_test_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe",
+    "test2": "testcafe firefox tests",
+    "test3": "testcafe chrome,safari tests",
+    "test4": "testcafe all tests",
+    "test5": "testcafe -c 2 chrome tests",
+    "test6": "testcafe chrome:headless tests",
+    "test7": "testcafe chrome tests -s takeOnFails=true"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danelysbrito/musala_test_framework.git"
+  },
+  "author": "Danelys Brito Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danelysbrito/musala_test_framework/issues"
+  },
+  "homepage": "https://github.com/danelysbrito/musala_test_framework#readme",
+  "dependencies": {
+    "testcafe": "^2.2.0"
+  }
+}
