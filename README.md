@@ -21,28 +21,40 @@ The .testcaferc.json configuration file specifies the default browser, and other
 
 But in the package.json file all desired execution profiles are specified, using npm, like:
 
-```bash
-npm run tests //all tests are executed
-```
+All tests are executed:
 
 ```bash
-npm run test_firefox //runs only firefox
+npm run tests
 ```
 
-```bash
-npm run test_chrome //runs only chrome
-```
+Runs only firefox:
 
 ```bash
-npm run test_both //chrome and firefox running at the same time
+npm run test_firefox
 ```
 
-```bash
-npm run test_report //run test and generate reports in json
-```
+Runs only chrome:
 
 ```bash
-npm run html_report_generator//generate reports in html
+npm run test_chrome
+```
+
+Chrome and firefox running at the same time:
+
+```bash
+npm run test_both
+```
+
+Run test and generate reports in json:
+
+```bash
+npm run test_report
+```
+
+Generate reports in html:
+
+```bash
+npm run html_report_generator
 ```
 
 2. **Store the base URL (http://www.musala.com/) in the configuration file**
@@ -62,13 +74,13 @@ In this case I created a data file data\invalidEmailAdd.json with 5 combinatios 
 5. **Provide a report for the test runs**
    In this ocation I used a npm dependencie called testcafe-reporter-cucumber-json
 
-```bash
+```JSON
 testcafe tests --reporter cucumber-json:report/jsonReport/jsonReport.json --reporter-app-name='Test Execution Report'
 ```
 
 This command line generate a report in json format, this formart is not visually atractive for that reason we used the "multiple-cucumber-html-reporter" that converts from json report to a html report with nice graphics, and more information related with the time, the browsers and if the test case failed it shows the screenshots in the exact moment the process failed.
 
-First You have to test and generate reportsin json:
+First You have to test and generate reports in json:
 
 ```bash
 npm run test_report
@@ -126,7 +138,12 @@ For each case I created a test in the same testsuite: tests\tc2_company_test.js
 12. Verify shown error messages (e.g., The field is required, The e-mail address entered is invalid etc.)
 
 Solution in this file: tests\tc3_4_careers_test.js
-Testcase:
+Testcases:
+"TC-03a Verify that ‘Join Us’ page is opened",
+"TC-03b Verify that 4 main sections are shown: General Description, Requirements, Responsibilities, What we offer",
+"TC-03c Verify that ‘Apply’ button is present at the bottom"
+"TC-03d Verify shown error messages: The field is required"
+"TC-03e Verify shown error messages: The e-mail address entered is invalid."
 
 **Test Case 4**
 
@@ -150,4 +167,4 @@ Testcase:
    More info: ………………
 
 Solution in this file: tests\tc3_4_careers_test.js
-Testcase: "TC-04 Verify the list with available positions by city Sofia"
+Testcase: "TC-04 Verify the list with available positions by city"
