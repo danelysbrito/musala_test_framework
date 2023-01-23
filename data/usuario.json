@@ -1,0 +1,8 @@
+{
+    "name": "Danelys Brito",
+    "email": "danelys.gmail.com",
+    "mobile": "234568876543",
+    "subject": "Automated Test Case",
+    "message": "Automated Test Case Message",
+    "errorMessage": "The e-mail address entered is invalid."
+}

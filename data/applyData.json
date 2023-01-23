@@ -1,0 +1,28 @@
+[
+    {
+        "name": "",
+        "email": "danelys@gmail.com",
+        "mobile": "234568876543",
+        "linkedInProfileLink": "https://www.linkedin.com/in/danelys-brito-gonz%C3%A1lez-418722140/",
+        "cvFile": "../data/files/CV.docx",
+        "message": "Automated Test Case Message",
+        "errorMessage": "The field is required."
+    },
+    {
+        "name": "Danels Brito",
+        "email": "dane.com",
+        "mobile": "234568876543",
+        "linkedInProfileLink": "https://www.linkedin.com/in/danelys-brito-gonz%C3%A1lez-418722140/",
+        "cvFile": "../data/files/CV.docx",
+        "message": "Automated Test Case Message",
+        "errorMessage": "The e-mail address entered is invalid."
+    },
+    {
+        "name": "Danelys Brito",
+        "email": "danelys@gmail.com",
+        "mobile": "234568876543",
+        "linkedInProfileLink": "https://www.linkedin.com/in/danelys-brito-gonz%C3%A1lez-418722140/",
+        "cvFile": "../data/files/CV.docx",
+        "message": "Automated Test Case Message"
+    }
+]

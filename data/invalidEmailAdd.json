@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Danelys Brito",
+        "email": "danelys@gmail.com",
+        "mobile": "234568876543",
+        "subject": "Automated Test Case",
+        "message": "Automated Test Case Message",
+        "errorMessage": "The e-mail address entered is invalid."
+    },
+    {
+        "name": "Danelys Brito",
+        "email": "danelys@gmail",
+        "mobile": "234568876543",
+        "subject": "Automated Test Case",
+        "message": "Automated Test Case Message",
+        "errorMessage": "The e-mail address entered is invalid."
+    },
+    {
+        "name": "Danelys Brito",
+        "email": "gmail.com",
+        "mobile": "234568876543",
+        "subject": "Automated Test Case",
+        "message": "Automated Test Case Message",
+        "errorMessage": "The e-mail address entered is invalid."
+    },
+    {
+        "name": "Danelys Brito",
+        "email": "yeyo",
+        "mobile": "234568876543",
+        "subject": "Automated Test Case",
+        "message": "Automated Test Case Message",
+        "errorMessage": "The e-mail address entered is invalid."
+    },
+    {
+        "name": "Danelys Brito",
+        "email": "1232@5465",
+        "mobile": "234568876543",
+        "subject": "Automated Test Case",
+        "message": "Automated Test Case Message",
+        "errorMessage": "The e-mail address entered is invalid."
+    }
+]

@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "testcafe",
-    "test2": "testcafe firefox tests",
-    "test3": "testcafe chrome,safari tests",
-    "test4": "testcafe all tests",
-    "test5": "testcafe -c 2 chrome tests",
-    "test6": "testcafe chrome:headless tests",
-    "test7": "testcafe chrome tests -s takeOnFails=true"
-
+    "test_firefox": "testcafe firefox tests",
+    "test_chrome": "testcafe firefox tests",
+    "test_both": "testcafe chrome,firefox tests",
+    "test_all": "testcafe all tests",
+    "test_paralell": "testcafe -c 2 chrome tests",
+    "test_headless": "testcafe chrome:headless tests",
+    "test_report": "testcafe tests --reporter cucumber-json:report/jsonReport/jsonReport.json --reporter-app-name='Test Execution Report'",
+    "html_report_generator": "node report-generator.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,10 @@
   },
   "homepage": "https://github.com/danelysbrito/musala_test_framework#readme",
   "dependencies": {
-    "testcafe": "^2.2.0"
+    "testcafe": "^2.2.0",
+    "testcafe-reporter-cucumber-json": "^5.1.0"
+  },
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^3.1.0"
   }
 }
