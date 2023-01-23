@@ -140,11 +140,12 @@ For each case I created a test in the same testsuite: tests\tc2_company_test.js
 
 Solution in this file: tests\tc3_4_careers_test.js
 Testcases:
-"TC-03a Verify that ‘Join Us’ page is opened",
-"TC-03b Verify that 4 main sections are shown: General Description, Requirements, Responsibilities, What we offer",
-"TC-03c Verify that ‘Apply’ button is present at the bottom"
-"TC-03d Verify shown error messages: The field is required"
-"TC-03e Verify shown error messages: The e-mail address entered is invalid."
+
+- "TC-03a Verify that ‘Join Us’ page is opened",
+- "TC-03b Verify that 4 main sections are shown: General Description, Requirements, Responsibilities, What we offer",
+- "TC-03c Verify that ‘Apply’ button is present at the bottom"
+- "TC-03d Verify shown error messages: The field is required"
+- "TC-03e Verify shown error messages: The e-mail address entered is invalid."
 
 **Test Case 4**
 
