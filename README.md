@@ -72,6 +72,7 @@ Up to 10 concurrency sessions can run concurrently.
 In this case I created a data file data\invalidEmailAdd.json with 5 combinatios of wrong data and with this instruction DATASET.forEach I can run the same test with diferent data set including in the file.
 
 5. **Provide a report for the test runs**
+
    In this ocation I used a npm dependencie called testcafe-reporter-cucumber-json
 
 ```JSON
