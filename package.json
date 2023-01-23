@@ -6,7 +6,7 @@
   "scripts": {
     "test": "testcafe",
     "test_firefox": "testcafe firefox tests",
-    "test_chrome": "testcafe firefox tests",
+    "test_chrome": "testcafe chrome tests",
     "test_both": "testcafe chrome,firefox tests",
     "test_all": "testcafe all tests",
     "test_paralell": "testcafe -c 2 chrome tests",
